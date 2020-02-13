@@ -18,7 +18,5 @@ func main() {
 	hypotenuse = math.Hypot(cathetus1, cathetus2)
 	perimeter = cathetus1 + cathetus2 + hypotenuse
 	area = cathetus1 * cathetus2 / 2
-	fmt.Printf("Длина гипотенузы прямоугольного треугольника равна %.2f см\n", hypotenuse)
-	fmt.Printf("Длина периметра прямоугольного треугольника равна %.2f см\n", perimeter)
-	fmt.Printf("Площадь прямоугольного треугольника равна %.2f см\u00B2\n", area)
+	fmt.Printf("Длина гипотенузы прямоугольного треугольника равна %.2f см\nДлина периметра прямоугольного треугольника равна %.2f см\nПлощадь прямоугольного треугольника равна %.2f см\u00B2\n", hypotenuse, perimeter, area)
 }
