@@ -10,7 +10,7 @@ func main() {
 	maxYearCount := 5
 	fmt.Println("Укажите сумму, которую Вы хотели бы разместить на вкладе")
 	fmt.Scanln(&deposit)
-	fmt.Println("Укажите процент (%), который будет начисляться ежегодно (вклад с капитализацией)")
+	fmt.Println("Укажите процент (\u0025), который будет начисляться ежегодно (вклад с капитализацией)")
 	fmt.Scanln(&percent)
 	for yearCount := 1; yearCount <= maxYearCount; yearCount++ {
 		deposit = deposit + (deposit * percent / 100)
