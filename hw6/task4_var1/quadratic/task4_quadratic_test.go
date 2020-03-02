@@ -5,17 +5,6 @@ import (
 	"testing"
 )
 
-/*type testpair struct {
-	values []float64
-	results []float64
-}
-
-var tests = []testpair{
-	{[]float64{2.5, -5.5, 3}, {7.5, 6.25, nil}},
-	{[]float64{1, 1, 1, 1, 1, 1}, 1},
-	{[]float64{-1, 1}, 0},
-}*/
-
 func TestQuadratic(t *testing.T) {
 	x1, x2, err := Quadratic(2.5, -5.5, 3)
 	if err != nil {

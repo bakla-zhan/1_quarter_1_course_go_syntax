@@ -1,7 +1,7 @@
 package main
 
 import (
-	"1_Go_syntax/hw6/task4_quadratic/quadratic"
+	"1_Go_syntax/hw6/task4_var1/quadratic"
 	"fmt"
 )
 
